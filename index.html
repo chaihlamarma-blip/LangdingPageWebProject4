@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -9,6 +10,20 @@
     ul li:hover{
         color: aqua;
     }
+    .btn1{
+        background-color: rgb(252, 252, 252);
+        color: rgb(158, 2, 2);
+        font-size: 24px;
+        padding: 6px 8px;
+        border-radius: 50%;
+        border: 2px solid rgb(242, 250, 255);
+        transition: all .2s ease-in-out;
+    }
+.btn1:hover{
+    background-color: transparent;
+    color: aliceblue;
+    transform: scale(1.03);
+}
     </style>
 </head>
 <body>
@@ -26,14 +41,15 @@
 
    <div class=" bg-cyan-500 pt-40 px-20 flex items-center justify-around">
     <div class="w-1/2">
-        <h1 class="text-3xl font-bold">Hi. I'm Chaihla. I Design Awsome Websites.</h1>
-        <p>I'm a  Website Designer. Lorem ipsum dolor, sit amet consectetur adipisicing elit Ab, autem.</p>
-        <div>
-            <button></button>
-            <p>Watch Prensentation Video.</p>
+        <h1 class="text-4xl text-white font-bold">Hi. <span class="text-rose-700">I'm Chaihla</span>. I Design <br> Awsome Websites.</h1>
+        <p class="text-slate-50 font-medium my-5 text-xl">I'm a  Website Designer. Lorem ipsum dolor, sit amet consectetur adipisicing elit Ab, autem.</p>
+        <div class=" flex gap-4 items-center">
+            <button class=" btn1"
+            ><i class="fa-solid fa-play"></i></button>
+            <p class="text-white underline">Watch Prensentation Video.</p>
         </div>
     </div>
-<img class="w-[600px]" src="/IMG_20241211_200222-removebg-preview.png" alt="">
+<img class="w-[600px]" src="./IMG_20241211_200222-removebg-preview.png" alt="">
    </div> 
 </body>
 </html>
