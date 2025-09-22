@@ -1,55 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
-    ul li:hover{
-        color: aqua;
-    }
-    .btn1{
-        background-color: rgb(252, 252, 252);
-        color: rgb(158, 2, 2);
-        font-size: 24px;
-        padding: 6px 8px;
-        border-radius: 50%;
-        border: 2px solid rgb(242, 250, 255);
-        transition: all .2s ease-in-out;
-    }
-.btn1:hover{
-    background-color: transparent;
-    color: aliceblue;
-    transform: scale(1.03);
-}
+        ul li:hover {
+            color: aqua;
+        }
+
+        .btn1 {
+            background-color: rgb(252, 252, 252);
+            color: rgb(158, 2, 2);
+            font-size: 24px;
+            padding: 6px 8px;
+            border-radius: 50%;
+            border: 2px solid rgb(242, 250, 255);
+            transition: all .2s ease-in-out;
+        }
+
+        .btn1:hover {
+            background-color: transparent;
+            color: aliceblue;
+            transform: scale(1.03);
+        }
+
+        .card {
+            text-align: center;
+        }
+
+        .card i {
+            font-size: 40px;
+            color: rgb(240, 7, 7);
+        }
+
+        .card h2 {
+            font-size: 32px;
+            color: aliceblue;
+            font-weight: 700;
+
+        }
+
+        .card p {
+
+            color: rgb(231, 231, 217);
+
+        }
     </style>
 </head>
-<body>
-   <nav class="bg-black p-4 text-white flex items-center justify-around fixed w-full">
-    <h1 class="text-3xl font-bold">Chaihla</h1>
-    <ul class="flex gap-16 text-xl  font-medium">
-        <li><a href="">Home</a></li>
-    <li><a href="">Services</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Testimonials</a></li>
-    <li><a href="">Gallery</a></li>
-</ul>
-   </nav>
-   <!-- header section  -->
 
-   <div class=" bg-cyan-500 pt-40 px-20 flex items-center justify-around">
-    <div class="w-1/2">
-        <h1 class="text-4xl text-white font-bold">Hi. <span class="text-rose-700">I'm Chaihla</span>. I Design <br> Awsome Websites.</h1>
-        <p class="text-slate-50 font-medium my-5 text-xl">I'm a  Website Designer. Lorem ipsum dolor, sit amet consectetur adipisicing elit Ab, autem.</p>
-        <div class=" flex gap-4 items-center">
-            <button class=" btn1"
-            ><i class="fa-solid fa-play"></i></button>
-            <p class="text-white underline">Watch Prensentation Video.</p>
+<body>
+    <!-- nav section -->
+    <nav class="bg-slate-900 p-4 text-white flex items-center justify-around fixed w-full">
+        <h1 class="text-3xl font-bold">Chaihla</h1>
+        <ul class="flex gap-16 text-xl  font-medium">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <!-- header section  -->
+
+    <div class=" bg-cyan-800 pt-40 px-20 flex items-center justify-around">
+        <div class="w-1/2">
+            <h1 class="text-4xl text-white font-bold">Hi. <span class="text-rose-700">I'm Chaihla</span>. I Design <br>
+                Awsome Websites.</h1>
+            <p class="text-slate-50 font-medium my-5 text-xl">I'm a Website Designer. Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit Ab, autem.</p>
+            <div class=" flex gap-4 items-center">
+                <button class=" btn1"><i class="fa-solid fa-play"></i></button>
+                <p class="text-white underline">Watch Prensentation Video.</p>
+            </div>
+        </div>
+        <img class="w-[600px]" src="./IMG_20241211_200222-removebg-preview.png" alt="">
+    </div>
+    <!-- services section -->
+    <div class="bg-gray-700 flex flex-col gap-2 items-center py-16">
+        <h1 class="text-3xl font-bold text-white">What I Do The Best</h1>
+        <p class="text-slate-200 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, modi.</p>
+        <div class="flex gap-5 max-w-6xl mt-10">
+            <div class="card space-y-2">
+                <i class="fa-solid fa-medal"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, eaque numquam ea eum recusandae est
+                    ut libero cumque quaerat consequatur.</p>
+            </div>
+            <div class="card space-y-2">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur, tempore veritatis placeat
+                    tenetur nihil aspernatur laborum molestias quasi fugiat.</p>
+            </div>
+            <div class="card space-y-2">
+                <i class="fa-solid fa-umbrella"></i>
+                <h2>Online Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci animi excepturi possimus
+                    tenetur. Odit maiores aut molestias voluptates accusantium.</p>
+            </div>
+
         </div>
     </div>
-<img class="w-[600px]" src="./IMG_20241211_200222-removebg-preview.png" alt="">
-   </div> 
 </body>
+
 </html>
